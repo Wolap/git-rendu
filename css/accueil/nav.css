@@ -1,0 +1,10 @@
+.container-nav {
+    display: flex;
+    background-color: gray;
+    padding: 1%;
+}
+
+.container-nav ul {
+    display: flex;
+    padding: 2%;
+}
