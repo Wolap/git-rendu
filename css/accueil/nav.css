@@ -1,0 +1,31 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(215, 218, 217, 0.89);
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+}
+
+.container-nav ul {
+    display: flex;
+    justify-content: right;  
+}
+
+.container-nav ul li {
+    padding: 3%;
+    font-size: 100%;
+}
+
+.container-nav ul li a {
+    color: rgb(33, 32, 32);
+}
+
+.container-nav ul li a:hover {
+    color: white;
+    transition: all 0.3s ease-out;
+}
+
+.name {
+    font-weight: bold;
+}
