@@ -1,0 +1,35 @@
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(242, 244, 243, 0.89);
+    border-bottom: 2px solid;
+    border-color: #0002;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 15px;
+    position: fixed;
+    width: 98%;
+}
+
+.container-nav ul {
+    display: flex;
+    justify-content: right;  
+}
+
+.container-nav ul li {
+    padding: 3%;
+    font-size: 100%;
+}
+
+.container-nav ul li a {
+    color: rgb(33, 32, 32);
+}
+
+.container-nav ul li a:hover {
+    color: rgb(165, 162, 162);
+    transition: all 0.3s ease-out;
+}
+
+.name {
+    font-weight: bold;
+}
