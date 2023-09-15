@@ -1,0 +1,45 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+
+.stars {
+    position: fixed;
+    top: var(--top);
+    left: var(--left);
+    width: var(--size);
+    height: var(--size);
+    background: rgba(255, 255, 255, 0.8);
+
+    animation: star var(--duration) linear;
+}
+
+@keyframes star {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(-100px) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200px) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.38);
+
+    padding: 1.5rem;
+    color: white;
+    width: clamp(300px, 50%, 400px);
+}

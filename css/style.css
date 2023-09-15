@@ -1,5 +1,6 @@
 @import url("./accueil/nav.css");
 @import url("./accueil/body.css");
+@import url("./components/card.css");
 
 * {
     margin: 0;
