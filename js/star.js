@@ -25,3 +25,13 @@ const count = 100;
 for (let i = 0; i < count; i++) {
     spawnStar();
 }
+
+const card = document.querySelector(".card");
+
+window.addEventListener("mousemove", (e) => {
+    const x = (e.clientX / window.innerWidth) * 2 - 1;
+    const y = (e.clientY / window.innerHeight) * 2 - 1;
+
+    console.log(x, y);
+    card.style.transform = `rotateX(${y * 10}deg) rotateY(${-x * 10}deg)`;
+});

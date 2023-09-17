@@ -42,4 +42,6 @@
     padding: 1.5rem;
     color: white;
     width: clamp(300px, 50%, 400px);
+
+    transition: all 0.2s;
 }
