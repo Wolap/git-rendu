@@ -1,0 +1,47 @@
+.info {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.info > img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+span {
+    opacity: 0.5;
+}
+
+.section {
+    position: relative;
+    margin-top: 1rem;
+    padding: 16px;
+    background: #0002;
+    border-radius: 16px;
+    display: flex;
+    gap: 16px;
+    overflow: hidden;
+}
+
+.section.center {
+    align-items: center;
+}
+
+.section > .background {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    opacity: 0.1;
+    pointer-events: none;
+    user-select: none;
+    transform: scale(5) rotate(15deg);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
