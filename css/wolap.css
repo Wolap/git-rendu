@@ -40,7 +40,7 @@ span {
     transform: scale(5) rotate(15deg);
 }
 
-ul {
+.section ul {
     display: flex;
     flex-direction: column;
     gap: 8px;
