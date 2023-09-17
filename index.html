@@ -6,6 +6,9 @@
         <title>Hello Coding !</title>
 
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/index.css" />
+
+        <script src="js/index.js" defer></script>
     </head>
     <body class="home">
         <nav>
@@ -14,23 +17,27 @@
                     <p class="name">GIT-RENDU</p>
                     <ul>
                         <li><a href="index.html">Accueil</a></li>
-                        <li><a href="wolap.html">Michel</a></li>
-                        <li><a href="kanapesh.html">Marianne</a></li>
+                        <li><a href="kanapesh.html">Michel</a></li>
+                        <li><a href="wolap.html">Marianne</a></li>
                     </ul>
                 </div>
             </section>
         </nav>
 
-        <section class="home__wolap">
+        <section class="home__wolap" x-href="wolap.html">
             <div class="home__content">
-                <h2>Voir la page de</h2>
-                <h1>Wolap</h1>
+                <div>
+                    <h2>Voir la page de</h2>
+                    <h1>Wolap</h1>
+                </div>
             </div>
         </section>
-        <section class="home__kanapesh">
+        <section class="home__kanapesh" x-href="kanapesh.html">
             <div class="home__content">
-                <h2>Voir la page de</h2>
-                <h1>Kan-A-Pesh</h1>
+                <div>
+                    <h2>Voir la page de</h2>
+                    <h1>Kan-A-Pesh</h1>
+                </div>
             </div>
         </section>
     </body>
